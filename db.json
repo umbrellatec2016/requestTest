@@ -37,17 +37,8 @@
 			]
 		},
 		{
-			"type": "submit",
-			"label": "enviar",
-			"inputType": "submit",
-			"name": "submit",
-			"validations": [
-				{
-					"name": "required",
-					"validator": "required",
-					"message": "Invalido"
-				}
-			]
+			"type": "button",
+			"label": "enviar"
 		}
 	]
 
