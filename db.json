@@ -10,9 +10,45 @@
 					"name": "required",
 					"validator": "required",
 					"message": "Se requiere nombre"
+				},
+				{
+					"name": "pattern",
+					"validator": "^[a-zA-Z]+$",
+					"message": "Solo se permite texto"
+				  }
+			]
+		},
+		{
+			"type": "input",
+			"label": "password",
+			"inputType": "text",
+			"name": "password",
+			"validations": [
+				{
+					"name": "required",
+					"validator": "required",
+					"message": "Invalido"
+				},
+				{
+					"name": "pattern",
+					"validator": "^[a-zA-Z]+$",
+					"message": "Solo se permite texto"
+				  }
+			]
+		},
+		{
+			"type": "submit",
+			"label": "enviar",
+			"inputType": "submit",
+			"name": "submit",
+			"validations": [
+				{
+					"name": "required",
+					"validator": "required",
+					"message": "Invalido"
 				}
 			]
 		}
 	]
-    
+
 }
