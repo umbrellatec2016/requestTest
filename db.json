@@ -38,7 +38,8 @@
 		},
 		{
 			"type": "button",
-			"label": "enviar"
+			"label": "enviar",
+			"name": "submit"
 		}
 	]
 
