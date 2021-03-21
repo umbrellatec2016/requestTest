@@ -1,5 +1,7 @@
 {
-    "login":[
+    "login":{
+		"action":"/login/process",
+		"elements":[
 		{
 			"type": "input",
 			"label": "Username",
@@ -39,13 +41,9 @@
 		{
 			"type": "button",
 			"label": "enviar",
-			"name": "submit",
-			"validations":[
-				{
-				"validator":"/login/process"
-				}
-			]
+			"name": "submit"
+			
 		}
 	]
-
+	}
 }
