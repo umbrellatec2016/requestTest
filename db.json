@@ -40,9 +40,11 @@
 			"type": "button",
 			"label": "enviar",
 			"name": "submit",
-			"validations":{
+			"validations":[
+				{
 				"validator":"/login/process"
-			}
+				}
+			]
 		}
 	]
 
