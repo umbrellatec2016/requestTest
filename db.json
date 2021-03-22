@@ -98,24 +98,7 @@
 					  }
 				]
 			},
-			{
-				"type": "input",
-				"label": "Agency ID",
-				"inputType": "text",
-				"name": "contact_mail",
-				"validations": [
-					{
-						"name": "required",
-						"validator": "required",
-						"message": "Se requiere nombre"
-					},
-					{
-						"name": "email",
-						"validator": "[a-z0-9._%+-]+@[a-z0-9.-]+.[a-z]{2,3}$",
-						"message": "Solo se permite texto"
-					  }
-				]
-			},
+			
 			{
 				"type": "button",
 				"label": "enviar",
